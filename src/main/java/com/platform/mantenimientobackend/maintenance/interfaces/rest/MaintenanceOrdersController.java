@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(value = "/api/v1/maintenance-orders", produces = MediaType.APPLICATION_JSON_VALUE)
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://maintenance-dev-43f4b.web.app")
 @Tag(name = "Maintenance Orders", description = "Operations related to equipment maintenance")
 public class MaintenanceOrdersController {
 

@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(value = "/api/v1/assets", produces = MediaType.APPLICATION_JSON_VALUE)
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://maintenance-dev-43f4b.web.app")
 @Tag(name = "Assets", description = "Asset Management Endpoints")
 public class AssetsController {
     private final AssetCommandService assetCommandService;
